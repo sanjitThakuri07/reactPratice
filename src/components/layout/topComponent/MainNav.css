@@ -1,0 +1,54 @@
+/* tab__functionality */
+.tab__functionality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  padding: 0.8rem;
+  gap: 1.6rem;
+  background-color: #cecece;
+}
+
+.tab__functionality button {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.tab__functionality-1,
+.tab__show {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  flex-basis: 15%;
+}
+
+/* tab functionality form */
+.tab__functionality form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  border: 0.1rem solid #333;
+  padding: 0.8rem;
+  border-radius: 5px;
+  /* width: 100%;
+    max-width: 90rem; */
+  background-color: #fff;
+}
+
+.tab__functionality form input {
+  flex: 1;
+  background: transparent;
+  font: 1.4rem;
+  border: none;
+  outline: none;
+}
+
+/* tab show */
+
+.tab__show {
+  justify-content: flex-end;
+}

@@ -1,0 +1,27 @@
+.footerOverlay {
+  padding: 2.4rem 1.6rem;
+  background-color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 8px -4px hsl(133, 80%, 80%);
+}
+
+.footerOverlay-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.content {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.top__content {
+  font-size: 1.4rem;
+}

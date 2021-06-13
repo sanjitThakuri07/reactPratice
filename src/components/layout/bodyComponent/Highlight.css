@@ -1,0 +1,18 @@
+/* highlight box */
+.highlight__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6rem;
+  border: 0.1rem solid #333;
+  border-radius: 5px;
+  min-height: 30rem;
+}
+
+.highlight__box p {
+  width: 100%;
+  max-width: 30%;
+  text-align: center;
+  line-height: 1.6;
+}
